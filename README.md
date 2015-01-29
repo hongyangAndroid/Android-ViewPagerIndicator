@@ -1,0 +1,2 @@
+# Android-ViewPagerIndicator
+一款仿MIUI的ViewPagerIndicator，支持Tab数量随意定义。

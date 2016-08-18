@@ -184,7 +184,7 @@ public class ViewPagerIndicator extends LinearLayout
 
 		// 容器移动，在tab处于移动至最后一个时
 		if (position >= (mTabVisibleCount - 2) && offset > 0
-				&& getChildCount() > mTabVisibleCount)
+				&& getChildCount() > mTabVisibleCount && position != (getChildCount() - 2))
 		{
 
 			if (mTabVisibleCount != 1)
